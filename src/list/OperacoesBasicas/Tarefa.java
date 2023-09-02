@@ -1,6 +1,6 @@
 package list.OperacoesBasicas;
 
-public class Tarefa {
+public class Tarefa{
     //atributo
     private String descricao;
 
@@ -8,9 +8,13 @@ public class Tarefa {
         this.descricao = descricao;
     }
 
-    public String getDescricao() {
+    public String getDescricao(){
         return descricao;
     }
 
+    @Override
+    public String toString() {
+        return descricao;
+    }
 
 }
