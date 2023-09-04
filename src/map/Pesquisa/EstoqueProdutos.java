@@ -41,4 +41,16 @@ public class EstoqueProdutos {
         }
         return produtoMaisCaro;
     }
+
+    public static void main(String[] args) {
+        EstoqueProdutos estoque = new EstoqueProdutos();
+
+        estoque.exibirProdutos();
+
+        estoque.adicionarProdutos(1,"Produto 1", 1,15d);
+
+        estoque.exibirProdutos();
+
+    }
+
 }
